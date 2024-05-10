@@ -41,6 +41,7 @@
 
 
 ### CI/CD
+<img width="5636" alt="Project  T3Team_bookstore_wireframe (1)" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/84436996/73238678-403b-4b44-a92b-8827f3fcd8ad">
 
 
 ### 개발환경
