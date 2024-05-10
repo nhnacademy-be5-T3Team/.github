@@ -127,6 +127,7 @@ gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
 
 
 ### ERD
+![image](https://github.com/nhnacademy-be5-T3Team/.github/assets/19462768/0f96422b-cfa0-4343-9451-09e47a4a08b1)
 
 ### 스크럼
 
