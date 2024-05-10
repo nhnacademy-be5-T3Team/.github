@@ -36,7 +36,8 @@
   </tbody>
 </table>
 
-### 시스템 아키텍쳐
+### 프로젝트 아키텍쳐
+<img width="7492" alt="Project  T3Team_bookstore_wireframe" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/84436996/b47151bd-29f8-4588-b165-d24986945ba5">
 
 
 ### CI/CD
