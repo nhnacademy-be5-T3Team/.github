@@ -132,8 +132,11 @@ gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
 
 ### [프로젝트 관리, WBS](https://github.com/orgs/nhnacademy-be5-T3Team/projects/2)
 Github에서 제공하는 Project를 활용해 프로젝트의 작업 현황과 진행도를 체계적으로 확인하면서 진행
-
 <img width="1679" alt="KakaoTalk_Photo_2024-05-10-13-41-16" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/67141385/e77ab0f0-df81-4459-871f-72f14de660d7">
+
+### [Kanban Board](https://github.com/orgs/nhnacademy-be5-T3Team/projects/2/views/9)
+<img width="1075" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/19462768/6fa0e250-a4a1-4464-9fa7-974032b99097">
+
 
 
 ### 스크럼
