@@ -130,8 +130,15 @@ gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
 ### ERD
 ![image](https://github.com/nhnacademy-be5-T3Team/.github/assets/19462768/0f96422b-cfa0-4343-9451-09e47a4a08b1)
 
-### 스크럼
+### [프로젝트 관리, WBS](https://github.com/orgs/nhnacademy-be5-T3Team/projects/2)
+Github에서 제공하는 Project를 활용해 프로젝트의 작업 현황과 진행도를 체계적으로 확인하면서 진행
 
-### WBS
+<img width="1679" alt="KakaoTalk_Photo_2024-05-10-13-41-16" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/67141385/e77ab0f0-df81-4459-871f-72f14de660d7">
+
+
+### 스크럼
+매일 10:00에 스크럼 진행, 진행 상황 및 이슈 공유를 통해 체계적인 프로젝트 진행
+
+<img width="528" alt="스크린샷 2024-05-10 오전 10 43 47" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/67141385/528af5b2-463c-4ce2-a642-07f39a37f02d">
 
 ### 테스트 커버리지
