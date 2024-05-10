@@ -139,7 +139,7 @@ Github에서 제공하는 Project를 활용해 프로젝트의 작업 현황과 
 ### 스크럼
 매일 10:00에 스크럼 진행, 진행 상황 및 이슈 공유를 통해 체계적인 프로젝트 진행
 
-<img width="528" alt="스크린샷 2024-05-10 오전 10 43 47" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/67141385/528af5b2-463c-4ce2-a642-07f39a37f02d">
+<img width="492" alt="스크린샷 2024-05-10 오후 1 47 41" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/67141385/87571534-7bae-4a70-ac6f-39faa1c44640">
 
 ### 테스트 커버리지
 
