@@ -24,7 +24,7 @@
     </tr>
     <tr>
       <td width="150"><a href="https://github.com/woody35545">@woody35545</a></td>
-      <td width="150"><a href="https://github.com/joohyun1996"></a>@JooH</td>
+      <td width="150"><a href="https://github.com/joohyun1996">@JooH</a></td>
       <td width="150"><a href="https://github.com/Yujin-nKim">@Yujin_nKim</a></td>
       <td width="150"><a href="https://github.com/parkjonggyeong18">@parkjonggyeong18</a></td>
       <td width="150"><a href="#">#</a></td>
