@@ -1,8 +1,12 @@
 
+## <img src="https://github.com/nhnacademy-be5-T3Team/front-server/blob/develop/src/main/resources/static/assets/main/images/book-icon.png" width=20 height=20> T3Team Bookstore 
+
 ### 프로젝트 소개
 - 고객이 책을 검색하고 주문할 수 있는 인터넷 서점입니다.
 - 관리자는 판매하고 싶은 책을 등록할 수 있습니다.
 - 검색을 통해 원하시는 제목 또는 내용의 책을 구경할 수 있습니다.
+- 개발 기간 : 
+- URL : https://www.t3t.shop/
 
 
 ### 구성원
@@ -31,6 +35,12 @@
     </tr>  
   </tbody>
 </table>
+
+### 시스템 아키텍쳐
+
+
+### CI/CD
+
 
 ### 개발환경
  - 개발도구: Intellij IDEA - Ultimate
@@ -115,3 +125,11 @@ gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
   <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white"/>
 
+
+### ERD
+
+### 스크럼
+
+### WBS
+
+### 테스트 커버리지
