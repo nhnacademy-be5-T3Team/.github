@@ -154,6 +154,34 @@ Github에서 제공하는 Project를 활용해 프로젝트의 작업 현황과 
 #### 구건모
 
 #### 이주현
+- 인증/인가
+  - Spring Security 사용 (Front, Auth)
+  - 로그인
+    - Client가 입력한 ID, PW가 DB에 저장되어 있는 암호화된 정보와 일치하는지 확인
+      - JWT 토큰은 Access, Refresh 2개의 토큰을 사용, 각 토큰은 1대1 맵핑이 되도록 동일한 임의의 UUID값을 지님
+      - 로그인 실패시 로그인 페이지로 Redirect
+  - 로그아웃
+      - 로그아웃시 사용된 Access Token을 Redis에 BlackList Token으로 저장하여 해당 토큰은 재사용 불가능하게 처리
+  - JWT 토큰 발급
+      - UserId, UserRole, UUID를 payload로 가짐
+      - Access Token의 수명은 15분, Refresh Token의 수명은 30분으로 설정
+  - JWT 토큰 재발급
+      - Refresh 토큰이 살아있는 경우
+        - Access Token이 만료 5분 전이거나, 만료된 경우 Refresh 토큰을 통한 재발급
+      - Refresh 토큰이 만료된 경우
+        - Access Token이 살아있는 경우는 요청 진행, 만료된 경우는 로그인 페이지로 Redirect
+        - 
+  - 인가
+    - Access Token이 없거나, 만료된 경우, 혹은 권한이 맞지 않는 경우
+      - Gateway Server에서 요청을 차단하고 메인 페이지로 Redirect
+        
+- 공통화 처리 
+  - Front Server에서 요청이 수행될 때, Cookie가 존재하면 Header에 추가
+  - Feign Client로 요청 전송시 Header값 자동으로 추가
+  - BookServer에서 Authorization Header Decode Filter 구현
+
+- 쿠폰
+  - 쿠폰 발급 CRUD 개발 및 뷰 구현
 
 #### 김유진 
 
