@@ -170,7 +170,6 @@ Github에서 제공하는 Project를 활용해 프로젝트의 작업 현황과 
         - Access Token이 만료 5분 전이거나, 만료된 경우 Refresh 토큰을 통한 재발급
       - Refresh 토큰이 만료된 경우
         - Access Token이 살아있는 경우는 요청 진행, 만료된 경우는 로그인 페이지로 Redirect
-        - 
   - 인가
     - Access Token이 없거나, 만료된 경우, 혹은 권한이 맞지 않는 경우
       - Gateway Server에서 요청을 차단하고 메인 페이지로 Redirect
