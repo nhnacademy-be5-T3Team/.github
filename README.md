@@ -186,5 +186,20 @@ Github에서 제공하는 Project를 활용해 프로젝트의 작업 현황과 
 #### 김유진 
 
 #### 박종경
+- 결제
+  - TOSS API
+    - 결제를 통해 주문/ 환불에 대한 기능을 수행하기 위해 toss api를 통해 인증 및 결제 진행
+    - 결제 및 취소 데이터를 toss와의 연동을 통해 toss 데이터와 주문정보를 주고 받음
+
+- 검색
+  - ELK
+    - Elasticsearch
+        - 데이터 저장, 수정된 데이터 업데이트 및 인덱싱
+    - Logstash
+       - database의 데이터를 elastic에 전달
+    - Kibana
+        - elasticsearch 시각화 및 데이터 탐색
+  - Ngram, Nori, jaso 분석기를 이용한 상품 검색
+  - 정확도순, 출판일순, 낮은 가격순, 평점순, 좋아요 순으로 정렬
 
 #### 박수화
