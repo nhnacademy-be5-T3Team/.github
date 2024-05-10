@@ -180,6 +180,9 @@ Github에서 제공하는 Project를 활용해 프로젝트의 작업 현황과 
   - Feign Client로 요청 전송시 Header값 자동으로 추가
   - BookServer에서 Authorization Header Decode Filter 구현
 
+- 시퀀스 다이어그램
+
+  
 - 쿠폰
   - 쿠폰 발급 CRUD 개발 및 뷰 구현
 
