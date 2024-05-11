@@ -8,7 +8,6 @@
 - 개발 기간 : 
 - URL : https://www.t3t.shop/
 
-
 ### 구성원
 <table>
   <tbody>
@@ -20,7 +19,7 @@
       <th align="center" width='14%'>박수화</th>
     </tr>
     <tr>
-      <td align="center"><img width="100" alt="image" src="#"></td>
+      <td align="center"><img width="100" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/84436996/cd0c467d-0e52-44fe-a264-28dc718e95a2"></td>
       <td align='center'><img width="100" alt="image" src="#"></td>
       <td align='center'><img width="100" alt="image" src="#"></td>
       <td align='center'><img width="100" alt="image" src="#"></td>
