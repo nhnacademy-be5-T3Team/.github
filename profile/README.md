@@ -4,9 +4,10 @@
 ### 프로젝트 소개
 - 고객이 책을 검색하고 주문할 수 있는 인터넷 서점입니다.
 - 관리자는 판매하고 싶은 책을 등록할 수 있습니다.
-- 검색을 통해 원하시는 제목 또는 내용의 책을 구경할 수 있습니다.
-- 개발 기간 : 
+- 검색을 통해 원하시는 제목 또는 내용의 책을 확인할 수 있습니다.
+- 개발 기간 : 2024.03.11 ~ 05.17
 - URL : https://www.t3t.shop/
+<br>
 
 ### 구성원
 <table>
@@ -21,7 +22,7 @@
     <tr>
       <td align="center"><img width="100" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/84436996/cd0c467d-0e52-44fe-a264-28dc718e95a2"></td>
       <td align='center'><img width="100" alt="image" src="#"></td>
-      <td align='center'><img width="100" alt="image" src="#"></td>
+      <td align='center'><img width="120" height="130" alt="image" src="https://avatars.githubusercontent.com/u/67141385?v=4"></td>
       <td align='center'><img width="100" alt="image" src="#"></td>
       <td align='center'><img width="100" alt="image" src="#"></td>
     </tr>
@@ -34,14 +35,15 @@
     </tr>  
   </tbody>
 </table>
+<br>
 
 ### 프로젝트 아키텍쳐
 <img width="7492" alt="Project  T3Team_bookstore_wireframe" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/84436996/b47151bd-29f8-4588-b165-d24986945ba5">
-
+<br>
 
 ### CI/CD
 <img width="5636" alt="Project  T3Team_bookstore_wireframe (1)" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/84436996/73238678-403b-4b44-a92b-8827f3fcd8ad">
-
+<br>
 
 ### 개발환경
  - 개발도구: Intellij IDEA - Ultimate
@@ -125,27 +127,35 @@ gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white"/>
-
+<br>
 
 ### ERD
 ![image](https://github.com/nhnacademy-be5-T3Team/.github/assets/19462768/0f96422b-cfa0-4343-9451-09e47a4a08b1)
+<br>
 
 ### [프로젝트 관리, WBS](https://github.com/orgs/nhnacademy-be5-T3Team/projects/2)
-Github에서 제공하는 Project를 활용해 프로젝트의 작업 현황과 진행도를 체계적으로 확인하면서 진행
+Github Roadmap
+- Github에서 제공하는 Project를 활용해 프로젝트의 작업 현황과 진행도를 체계적으로 관리했습니다.
+- 이를 통해 작업 항목들을 시각적으로 구성하고, 각 항목과 관련된 PR, 이슈 등을 연결하여 프로젝트의 전반적인 진행 상황을 투명하게 공유할 수 있었습니다.
+
 <img width="1679" alt="KakaoTalk_Photo_2024-05-10-13-41-16" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/67141385/e77ab0f0-df81-4459-871f-72f14de660d7">
+<br>
 
 ### [Kanban Board](https://github.com/orgs/nhnacademy-be5-T3Team/projects/2/views/9)
+Github Kanban
+- Githbu의 Project 기능 중 Kanban 보드를 활용하여 프로젝트를 관리했습니다.
+- Todo, InProgress, Done 의 열로 작업을 구분해 현재 작업 상황을 실시간으로 확인할 수 있도록 했습니다. 또한, Delay 탭을 별도로 만들어 프로젝트 내에서 지연되는 부분을 확인해 적절한 조치를 취할 수 있도록 했습니다.
+
 <img width="1075" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/19462768/6fa0e250-a4a1-4464-9fa7-974032b99097">
-
-
+<br>
 
 ### 스크럼
-매일 10:00에 스크럼 진행, 진행 상황 및 이슈 공유를 통해 체계적인 프로젝트 진행
+일주일 간격으로 스크럼 마스터를 선정해 매일 아침 10:00에 스크럼을 진행했습니다. 개발 기간 동안 총 40번이 넘는 스크럼이 진행되었고, 스크럼에서는 팀원들이 각자의 진행 상황을 공유하고 발생한 이슈들을 함께 논의하여 프로젝트를 원활하게 진행할 수 있었습니다.
 
 <img width="492" alt="스크린샷 2024-05-10 오후 1 47 41" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/67141385/87571534-7bae-4a70-ac6f-39faa1c44640">
+<br>
 
 ### 테스트 커버리지
-
 
 
 ### 구성원 별 담당 내용
@@ -349,6 +359,40 @@ Github에서 제공하는 Project를 활용해 프로젝트의 작업 현황과 
 <br/>
 
 ## :bust_in_silhouette: 김유진
+> ## 도서 
+- 도서 조회, 등록, 수정, 삭제 구현
+- 도서 등록, 수정 시에 editor 적용(toast ui)
+  - 입력한 마크다운 대로 저장 및 불러오기 가능
+- 메인 페이지에서 도서 추천 목록 조회 기능 구현
+  - 신간 도서, 평점 순, 베스트 셀러 순으로 정렬된 도서 조회
+- Object Storage를 연동해 썸네일 및 다중 미리보기 이미지 등록 및 수정 가능
+
+> ## 리뷰
+- 리뷰 등록, 수정, 삭제, 회원별 리뷰 목록 조회, 도서별 리뷰 목록 조회 구현
+- Object Storage를 연동해 다중 이미지 등록 및 수정 가능
+
+> ## 카테고리
+- 카테고리의 부모-자식 관계를 통해 계층 구조로 구성해 효과적으로 구조화하고 관리
+- 카테고리 등록, 수정, 삭제 구현
+- 카테고리 조회 구현
+  - 조회하고자 하는 카테고리의 depth 지정해 계층 구조로 조회 가능
+- 카테고리 관리자 view
+
+> ## 태그
+- 태그 등록, 수정, 조회, 삭제 구현
+- 태그 관리자 view
+
+> ## 저자
+- 저자 조회, 등록, 수정, 삭제 구현
+- 저자 관리자 view
+
+> ## 파일 업로드
+- NHN Object Storage 연동
+- storage에 접근하기 위해 필요한 token을 Redis에 등록하여 사용
+
+> ## OpenAPI 연동 및 테스트 데이터 insert
+- 개발 및 실제 배포 환경에서 다양한 도서 데이터를 확보하기 위해, 데이터 insert를 위한 파이썬 스크립트 구현
+- 알라딘 OpenAPI의 상품 검색 API와 상세 조회 API를 활용해 각 카테고리 별로 도서와 관련된 정보들(출판사, 작가, 이미지 등)을 중복없이 자동으로 데이터베이스에 삽입하는 작업을 수행
 
 ---
 <br/>
