@@ -24,7 +24,7 @@
       <td align='center'><img width="100" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/19462768/ea337a41-08d2-4247-a201-88f3bd6617f9"></td>
       <td align='center'><img width="120" height="130" alt="image" src="https://avatars.githubusercontent.com/u/67141385?v=4"></td>
       <td align='center'><img width="100" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/81209336/54a906ac-ee4d-47ff-aca4-79a527f03a8c"></td>
-      <td align='center'><img width="100" alt="image" src="![증명사진](https://github.com/nhnacademy-be5-T3Team/.github/assets/146078205/024e4511-4a0a-4d62-a46f-99971f38282b)"></td>
+      <td align='center'><img width="100" alt="image" src="!https://github.com/nhnacademy-be5-T3Team/.github/assets/146078205/024e4511-4a0a-4d62-a46f-99971f38282b"></td>
     </tr>
     <tr>
       <td width="150"><a href="https://github.com/woody35545">@woody35545</a></td>
