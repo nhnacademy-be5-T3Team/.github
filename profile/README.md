@@ -38,8 +38,28 @@
 <br>
 
 ### 프로젝트 아키텍쳐
+
 <img width="7492" alt="Project  T3Team_bookstore_wireframe" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/84436996/b47151bd-29f8-4588-b165-d24986945ba5">
 <br>
+
+- FRONTEND : 클라이언트의 요청은 NginX 통해서 들어오고, 로드밸런서에서 Round Robin 방식으로 순서대로 Front Application 에 보내지게 됩니다.
+Front Application 은 필요한 요청을 API Gateway 를 통해 처리합니다.
+프론트엔드는 Thymeleaf, HTML, CSS, Javascript로 구현되어 있으며, 사용자 인증 및 권한 관리를 위해 Spring Security와 JWT를 사용합니다.
+
+- API - GATEWAY : API 게이트웨이는 Spring Cloud Gateway를 이용하여 구현되었으며, 클라이언트의 요청을 받아 해당 요청을 처리할 서비스로 라우팅합니다.
+또한 Spring Cloud Netflix Eureka Client를 사용하여 유레카 서버로부터 서비스 인스턴스 정보를 검색하고, JWT를 활용하여 인증된 요청만을 허용합니다.
+Access 토큰이 만료된 경우, Refresh 토큰과 비교를 통해 요청을 Auth 서버로 보내 토큰 재발급을 받고, 원래 요청을 수행하도록 구현하였습니다.
+
+- EUREKA : 유레카 서버는 Spring Cloud Netflix Eureka를 통해 서비스들의 인스턴스 정보를 등록하고 관리합니다. 이를 통해 서비스 디스커버리 및 로드 밸런싱이 가능하며, gateway는 유레카 서버를 통해 서비스의 위치를 동적으로 찾을 수 있습니다.
+
+- AUTH API : auth API 서버는 Spring Security를 이용하여 구현되었으며, JWT를 활용하여 사용자의 인증 및 권한 부여를 담당합니다.
+보안을 위해, Access 토큰 과 Refresh 토큰을 활용하여 보안을 강화하였습니다. 또한 로그아웃시 사용된 Access 토큰을 Blacklist로 등록하여 로그아웃된 토큰의 재사용을 방지하였습니다.
+Access 토큰의 자동 재발급을 구현하여, Client가 매번 다시 로그인 해야하는 불편함을 해소하였습니다.
+
+- BOOKSTORE API : bookstore API 서버는 gateway로부터 요청을 받아 필요한 데이터를 응답합니다. Spring Data JPA와 QueryDSL을 활용하여 데이터를 관리합니다.Junit5, AssertJ, Mockito를 이용하여 테스트 코드를 작성하고, SonarQube를 통해 코드 품질을 유지합니다.
+
+- COUPON API : coupon API 서버는 Spring Boot와 Spring Data JPA를 이용하여 구현되었으며, QueryDSL을 활용하여 데이터베이스 조회를 효율적으로 처리합니다.Junit5, AssertJ, Mockito를 이용하여 테스트 코드를 작성하고, SonarQube를 통해 코드 품질을 유지합니다.
+
 
 ### CI/CD
 - Github를 통해 코드베이스를 관리하며 변경 사항을 병합하기 위해 Pull Request를 생성하고 팀원들을 이를 검토하고 코드 리뷰를 진행합니다.
