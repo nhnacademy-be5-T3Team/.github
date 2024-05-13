@@ -42,6 +42,9 @@
 <br>
 
 ### CI/CD
+- Github를 통해 코드베이스를 관리하며 변경 사항을 병합하기 위해 Pull Request를 생성하고 팀원들을 이를 검토하고 코드 리뷰를 진행합니다.
+PR가 merge되면 Github Action을 통한 CI/CD가 시작됩니다. 이 파이프라인은 빌드를 자동으로 시작하고 빌드된 코드에 대해 SonarQube로 테스트가 진행되어 코드의 품질을 평가합니다. 모든 테스트가 성공하면 자동으로 배포가 진행됩니다.
+- 또한, NHN Cloud의 Secure Key Manager를 사용하여 DB 정보를 비롯한 암호화가 필요한 중요한 데이터들을 안전하게 관리하고 환경변수를 통해 접근합니다.
 <img width="5636" alt="Project  T3Team_bookstore_wireframe (1)" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/84436996/73238678-403b-4b44-a92b-8827f3fcd8ad">
 <br>
 
@@ -146,7 +149,7 @@ Github Kanban
 - Githbu의 Project 기능 중 Kanban 보드를 활용하여 프로젝트를 관리했습니다.
 - Todo, InProgress, Done 의 열로 작업을 구분해 현재 작업 상황을 실시간으로 확인할 수 있도록 했습니다. 또한, Delay 탭을 별도로 만들어 프로젝트 내에서 지연되는 부분을 확인해 적절한 조치를 취할 수 있도록 했습니다.
 
-<img width="1075" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/19462768/6fa0e250-a4a1-4464-9fa7-974032b99097">
+<img width="1586" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/67141385/ae0d43ba-3802-47d7-9380-21f7efee1d80">
 <br>
 
 ### 스크럼
