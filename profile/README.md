@@ -350,7 +350,12 @@ Github Kanban
   - BookServer에서 Authorization Header Decode Filter 구현
 
 - 시퀀스 다이어그램
-
+  - 로그인 시퀀스
+    ![image](https://github.com/nhnacademy-be5-T3Team/.github/assets/19462768/a58041e1-f0f6-4a1a-baf3-f8cadfe00dcd)
+  - 재발급 시퀀스
+    ![image](https://github.com/nhnacademy-be5-T3Team/.github/assets/19462768/727bb0da-c8d5-4f88-bc67-81682224b3c2)
+  - 로그아웃 시퀀스
+    ![image](https://github.com/nhnacademy-be5-T3Team/.github/assets/19462768/0553e418-e485-4eb5-a741-2b24a4814299)
   
 > ## 쿠폰
   - 쿠폰 발급 CRUD 개발 및 뷰 구현
