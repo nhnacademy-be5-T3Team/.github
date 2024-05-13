@@ -21,7 +21,7 @@
     </tr>
     <tr>
       <td align="center"><img width="100" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/84436996/cd0c467d-0e52-44fe-a264-28dc718e95a2"></td>
-      <td align='center'><img width="100" alt="image" src="#"></td>
+      <td align='center'><img width="100" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/19462768/ea337a41-08d2-4247-a201-88f3bd6617f9"></td>
       <td align='center'><img width="120" height="130" alt="image" src="https://avatars.githubusercontent.com/u/67141385?v=4"></td>
       <td align='center'><img width="100" alt="image" src="#"></td>
       <td align='center'><img width="100" alt="image" src="#"></td>
