@@ -180,6 +180,8 @@ Github Kanban
 
 ### 테스트 커버리지
 
+![image](https://github.com/nhnacademy-be5-T3Team/.github/assets/67141385/4201a08d-9d21-49ca-ad06-31fc3e655e34)
+<br>
 
 ### 구성원 별 담당 내용
 
