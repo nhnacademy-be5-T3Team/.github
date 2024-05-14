@@ -169,7 +169,7 @@ Github Kanban
 - Githbu의 Project 기능 중 Kanban 보드를 활용하여 프로젝트를 관리했습니다.
 - Todo, InProgress, Done 의 열로 작업을 구분해 현재 작업 상황을 실시간으로 확인할 수 있도록 했습니다. 또한, Delay 탭을 별도로 만들어 프로젝트 내에서 지연되는 부분을 확인해 적절한 조치를 취할 수 있도록 했습니다.
 
-<img width="1586" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/67141385/ae0d43ba-3802-47d7-9380-21f7efee1d80">
+<img width="1713" alt="image" src="https://github.com/nhnacademy-be5-T3Team/.github/assets/84436996/5270bbf9-fcee-4538-b202-ab7fd4f13d34">
 <br>
 
 ### 스크럼
