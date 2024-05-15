@@ -437,7 +437,7 @@ Github Kanban
     - 결제 및 취소 데이터를 toss와의 연동을 통해 toss 데이터와 주문정보를 주고 받음
     - toss 결제 view 구현 및 연동
 
-> ## text 검색
+> ## 검색
 
   - ELK
     - Elasticsearch
