@@ -437,25 +437,26 @@ Github Kanban
     - 결제 및 취소 데이터를 toss와의 연동을 통해 toss 데이터와 주문정보를 주고 받음
     - toss 결제 view 구현 및 연동
 
-> ## 검색
+> ## elasticsearch
 
   - ELK
     - Elasticsearch
         - 데이터 저장, 수정된 데이터 업데이트 및 인덱싱
-        - full text search  수행
     - Logstash
        - database의 데이터를 elastic에 전달
     - Kibana
         - elasticsearch 시각화 및 데이터 탐색
-  - Ngram, Nori, jaso 분석기를 이용한 상품 검색
+  - Ngram, Nori, jaso 분석기를 사용해 다양한 조건의 검색 수행
+  
+> ## 검색
+
   - full text search를 수행하는 과정에서 카테고리 영역의 도서 검색 구현
   - 실사간으로 elasticsearch의 정보를 받아와 자동완성 기능 구현
+  - full text search  수행
   - 정확도순, 출판일순, 낮은 가격순, 평점순, 좋아요 순으로 정렬
   - 검색 view 구현
+  - Ngram, Nori, jaso 분석기를 이용한 상품 검색
     
-
-  
-
 ---
 <br/>
 
